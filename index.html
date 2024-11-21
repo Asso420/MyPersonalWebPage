@@ -1,36 +1,86 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Your Paage </title>
-        <style> 
-            body { 
-                background: rgb(134, 124, 124);
-                color: white;
-                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-            }      
-            
-            h1 
-            { 
-                background: black;
-                color:rgb(58, 87, 194)
-            }
-            h2
-            { 
-                color:rgb(100, 78, 78)
-            }
-            button{
-                background: rgb(170, 123, 123);
-                border: none;
-                color: rgb(187, 145, 145);
-            }
-        </style>
-    </head>
-    <body>
-        <h1>My Webage</h1>
-        <h2>About me</h2>
-        <p>Hi i am an overall <strong>awesome</strong> guy. You dont
-        have to take my word for it, though. it has been 
-        <em>scientifically proven </em> on many levels.
-        </p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Review - Personal Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin: 0 0 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #ecf0f1;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #e0e0e0;
+            max-width: 600px;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .button-container {
+            margin-top: 1.5rem;
+        }
+
+        button {
+            background: #2980b9;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #1abc9c;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 1rem;
+            text-align: center;
+            color: #bdc3c7;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Personal Page</h1>
+    <h2>Currently Under Review</h2>
+    <p>
+        Thank you for visiting my personal webpage. This space is under review and will be updated soon 
+        to showcase my professional journey, skills, and accomplishments. Stay tuned!
+    </p>
+    <div class="button-container">
+        <button onclick="alert('Thank you for your patience!')">Learn More</button>
+    </div>
+    <footer>
+        &copy; 2024 - Your Name. All rights reserved.
+    </footer>
+</body>
 </html>
